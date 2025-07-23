@@ -1,0 +1,14 @@
+# Python cache dosyaları
+__pycache__/
+*.pyc
+
+# Jupyter notebook checkpoint'leri
+.ipynb_checkpoints/
+
+# IDE ayarları
+.vscode/
+.idea/
+
+# Büyük dosyalar
+data/
+
