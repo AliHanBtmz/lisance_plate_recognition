@@ -1,6 +1,8 @@
 # License Plate Detection and Recognition System (Only with Image Processing)
 
 This project is a License Plate Recognition System (LPRS) developed using **only image processing techniques**, without using any machine learning or deep learning models.
+<br>
+<img src="images/collage_oran_korunarak.jpg" alt="Step 1 - Grayscale" /><br>
 
 ## 🎯 Project Goal
 
