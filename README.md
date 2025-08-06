@@ -73,14 +73,27 @@ project-root/
 
 ## 🖼️ Example Flow
 
-1. **Step 1**: Convert image to grayscale and resize  
-2. **Step 2**: Detect edges with Canny  
-3. **Step 3**: Apply dilation and skeletonization  
-4. **Step 4**: Extract contours and filter candidates  
-5. **Step 5**: Crop ROI, resize and enhance with CLAHE  
-6. **Step 6**: Threshold and perform connected component analysis  
-7. **Step 7**: Match detected characters with template images  
-8. **Step 8**: Draw final license plate and recognized text on the original image
+🟩 Step 1: Convert image to grayscale and resize <br>
+<img src="images/grayscaling_recognation.png" alt="Step 1 - Grayscale" width="400"/><br>
+🟩 Step 2: Detect edges with Canny<br>
+<img src="images/cannyEdge_recognation.jpg" alt="Step 2 - Canny Edge Detection" width="400"/><br>
+🟩 Step 3: Apply dilation and skeletonization<br>
+<img src="images/dilation_recognation.jpg" alt="Step 3 - Dilation" width="400"/><br>
+🟩 Step 4: Extract contours and filter candidates<br>
+<img src="images/contour_extraction_and_roi.png" alt="Step 4 - Contour Extraction" width="400"/><br>
+🟩 Step 5: Crop ROI<br>
+<img src="images/cropped_roi.jpg" alt="Step 5 - ROI Cropped" width="400"/><br>
+🟩 Step 6: Enhance ROI with CLAHE<br>
+<img src="images/contrastenhancment.jpg" alt="Step 6 - CLAHE Enhancement" width="400"/><br>
+🟩 Step 7: Thresholding<br>
+<img src="images/roi_thresholdin.jpg" alt="Step 7 - Thresholding" width="400"/><br>
+🟩 Step 8: Connected Component Analysis<br>
+<img src="images/component_Analysis.png" alt="Step 8 - Component Analysis" width="400"/><br>
+🟩 Step 9: Match detected characters with template images<br>
+<img src="images/Template_matching.png" alt="Step 9 - Template Matching" width="400"/><br>
+🟩 Step 10: Draw final license plate and recognized text on the original image<br>
+<img src="images/detection_and_recognation.jpg" alt="Step 10 - Final Result" width="400"/><br>
+
 
 ---
 
